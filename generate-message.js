@@ -19,7 +19,11 @@ const generateMessage = () => {
     const adj1 = adjs[Math.floor(Math.random() * adjs.length)];
     const verb1 = verbs[Math.floor(Math.random() * verbs.length)];
     const verb2 = verbs[Math.floor(Math.random() * verbs.length)];
+<<<<<<< HEAD
     console.log(`${noun1} is not ${noun2}\n\n${noun3} is not ${adj1}\n\nIt is the ${noun4} to ${verb1}\n\nThat ${verb2}.`)
+=======
+    console.log(`${noun1} is not ${noun2}\n\n ${noun3} is not ${adj1}\n\n It is the ${noun4} to ${verb1}\n\n That ${verb2}.`)
+>>>>>>> 7eae82e63a4ef23c06a43ec0d0eb222f66fcf9a2
 }
 
 generateMessage();
